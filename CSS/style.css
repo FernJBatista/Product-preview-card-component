@@ -141,4 +141,23 @@ main section button {
 }
 main section button:hover {
   background-color: var(--Very-dark-blue);
+}
+
+@media (max-width: 375px) {
+  body {
+    height: auto;
+  }
+  main {
+    flex-direction: column;
+    margin: 0;
+    height: auto;
+    overflow: show;
+  }
+  main section {
+    padding: 1.5rem 1rem;
+    gap: 1rem;
+  }
+  main h1 {
+    font-size: 1.5rem;
+  }
 }/*# sourceMappingURL=style.css.map */
